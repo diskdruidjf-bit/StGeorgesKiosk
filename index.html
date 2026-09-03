@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="St George's Taverne — un lieu chaleureux pour manger, boire et se retrouver dans les Laurentides." />
+    <meta name="description" content="Bar de quartier à Saint-Jérôme : bières, cocktails, karaoké, billard et soirées thématiques au St George's Taverne, ouvert tous les jours." />
     <meta name="theme-color" content="#17120f" />
+    <link rel="canonical" href="https://stgeorgestaverne.ca/" />
     <link rel="icon" type="image/png" href="assets/favicon-stgeorges.png" />
     <link rel="apple-touch-icon" href="assets/favicon-stgeorges.png" />
-    <title>St George's Taverne | Manger, boire, se retrouver</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:site_name" content="St George's Taverne" />
+    <meta property="og:title" content="Bar de quartier à Saint-Jérôme | St George's Taverne" />
+    <meta property="og:description" content="Karaoké, billard, bières, cocktails et soirées au cœur de Saint-Jérôme." />
+    <meta property="og:url" content="https://stgeorgestaverne.ca/" />
+    <meta property="og:image" content="https://stgeorgestaverne.ca/assets/st-georges-ambiance.png" />
+    <meta property="og:image:alt" content="Ambiance du St George's Taverne à Saint-Jérôme" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Bar de quartier à Saint-Jérôme | St George's Taverne</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
@@ -15,6 +25,36 @@
     <link rel="stylesheet" href="photo.css" />
     <link rel="stylesheet" href="gallery.css" />
     <link rel="stylesheet" href="event-popup.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["BarOrPub", "LocalBusiness"],
+        "@id": "https://stgeorgestaverne.ca/#etablissement",
+        "name": "St George's Taverne",
+        "url": "https://stgeorgestaverne.ca/",
+        "image": "https://stgeorgestaverne.ca/assets/st-georges-ambiance.png",
+        "telephone": "+1-450-436-6446",
+        "email": "info@stgeorgestaverne.ca",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "97, rue Saint-Georges",
+          "addressLocality": "Saint-Jérôme",
+          "addressRegion": "QC",
+          "addressCountry": "CA"
+        },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "11:00",
+          "closes": "03:00"
+        }],
+        "sameAs": [
+          "https://www.facebook.com/p/St-Georges-taverne-urbaine-61566446579908/",
+          "https://www.instagram.com/stgeorges_taverne_urbaine/"
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -25,7 +65,7 @@
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><span class="sr-only">Ouvrir le menu</span></button>
         <div class="nav-links" id="nav-links">
-          <a href="#histoire">À propos</a><a href="carte.html">Carte</a><a href="#evenements">Événement</a><a href="https://sallepointg.ca">Salle Point G – Location</a><a href="#contact">Contact</a>
+          <a href="#histoire">À propos</a><a href="/carte">Carte</a><a href="#evenements">Événement</a><a href="/salle-privee">Salle privée</a><a href="#contact">Contact</a>
           <a class="button button-small" href="https://www.google.com/maps/search/?api=1&query=97+rue+Saint-Georges,+Saint-Jérôme,+QC" target="_blank" rel="noreferrer">Nous trouver</a>
         </div>
       </nav>
@@ -35,17 +75,17 @@
       <section class="hero" aria-label="Bienvenue au St George's Taverne">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-          <p class="eyebrow">Taverne de quartier · Laurentides</p>
-          <h1>Les bons moments<br /><em>commencent ici.</em></h1>
-          <p class="hero-copy">Une table généreuse, un verre bien servi et l’ambiance parfaite pour se retrouver.</p>
-          <div class="hero-actions"><a class="button" href="carte.html">Découvrir la carte</a><a class="text-link" href="#evenements">Voir les événements <span>→</span></a></div>
+          <p class="eyebrow">Bar de quartier · Saint-Jérôme</p>
+          <h1>Votre bar de quartier<br /><em>à Saint-Jérôme.</em></h1>
+          <p class="hero-copy">Bières, cocktails, karaoké, billard et l’ambiance parfaite pour se retrouver.</p>
+          <div class="hero-actions"><a class="button" href="/carte">Découvrir la carte</a><a class="text-link" href="#evenements">Voir les événements <span>→</span></a></div>
         </div>
         <a class="scroll-cue" href="#histoire">Défiler <span></span></a>
       </section>
 
       <section class="intro section" id="histoire">
         <div class="container two-col">
-          <div><p class="eyebrow">À propos</p><h2>Le rendez-vous<br /><em>des bons moments.</em></h2></div>
+          <div><p class="eyebrow">À propos</p><h2>Une taverne urbaine<br /><em>au cœur de Saint-Jérôme.</em></h2></div>
           <div class="intro-copy"><p>Au St George's, on vient pour l’ambiance et on reste pour les gens. Une taverne urbaine où se croisent une bière entre amis, une partie de billard et des soirées mémorables.</p><p>Ouvert tous les jours de 11 h à 3 h, au cœur de Saint-Jérôme.</p><a class="text-link dark" href="https://www.google.com/maps/search/?api=1&query=97+rue+Saint-Georges,+Saint-Jérôme,+QC" target="_blank" rel="noreferrer">97, rue Saint-Georges, Saint-Jérôme <span>↗</span></a></div>
         </div>
       </section>
@@ -56,13 +96,13 @@
             <article><span class="menu-number">01</span><h3>Bières en fût</h3><p>Une sélection froide et variée, avec des spéciaux à découvrir chaque lundi.</p></article>
             <article><span class="menu-number">02</span><h3>Cocktails & drinks</h3><p>Classiques, créations maison et différentes promotions chaque semaine.</p></article>
             <article><span class="menu-number">03</span><h3>Bières & spiritueux</h3><p>Vos incontournables, servis dans une ambiance qui donne le goût de rester.</p></article>
-          </div><p class="menu-note">La cuisine régulière revient sous peu. Un menu sur mesure est déjà disponible pour les événements privés à la Salle Point G.</p><a class="button button-outline" href="carte.html">Découvrir la carte</a>
+          </div><p class="menu-note">La cuisine régulière revient sous peu. Un menu sur mesure est déjà disponible pour les événements privés à la Salle Point G.</p><a class="button button-outline" href="/carte">Découvrir la carte</a>
         </div>
       </section>
 
       <section class="events section" id="evenements"><div class="container"><div class="section-heading"><div><p class="eyebrow">Toute la semaine</p><h2>Vos soirées,<br /><em>notre terrain de jeu.</em></h2></div><p>Des rendez-vous pour chanter, rire, jouer et se retrouver. Consultez nos réseaux sociaux pour les détails et les thèmes de la semaine.</p></div><div class="program-grid"><div class="program-block"><p class="eyebrow">Bar principal</p><div class="event-list"><article><p>Lundi</p><h3>Lundi de la fût</h3><span>Spéciale sur la bière en fût</span></article><article><p>Mardi</p><h3>Hot-dog à 1 $</h3><span>Un classique du mardi</span></article><article><p>Mercredi</p><h3>Karaoké animé par Luc Collerette</h3><span>Nord Musique · Dès 13 h : tournoi de golf-billard</span></article><article><p>Jeudi</p><h3>Ladies Night</h3><span>Drinks en promotion, différents chaque semaine</span></article><article><p>Vendredi</p><h3>Party à thèmes</h3><span>Tournoi de billard dès 12 h 30</span></article><article><p>Samedi</p><h3>Karaoké libre-service</h3><span>Tous les samedis</span></article></div></div><div class="program-block point-g"><p class="eyebrow">Événements · Salle Point G</p><div class="event-list"><article><p>Tous les mardis</p><h3>Danse en ligne country</h3><span>Au deuxième étage, à la Salle Point G</span></article><article><p>Un jeudi sur deux</p><h3>Soirée d’impro</h3><span>Une soirée de rires et d’improvisation</span></article><article><p>1er octobre 2026</p><h3>Soirée humour Point G</h3><span>Animée par Will Murphy · de retour le 1er octobre</span><a class="event-ticket-link" href="https://sallepointg.ca/evenements/soireehumourpointg011026">Réserver mes billets →</a></article></div><a class="text-link dark" href="https://sallepointg.ca">Découvrir la Salle Point G <span>→</span></a></div></div><div class="social-links"><a class="button" href="https://www.facebook.com/p/St-Georges-taverne-urbaine-61566446579908/" target="_blank" rel="noreferrer">Facebook</a><a class="button button-outline dark-outline" href="https://www.instagram.com/stgeorges_taverne_urbaine/" target="_blank" rel="noreferrer">Instagram</a></div></div></section>
 
-      <section class="features" id="billard"><div class="feature feature-billiard"><div><p class="eyebrow">Jouer</p><h2>Une partie?<br /><em>On vous attend.</em></h2><p>Billard, jeux et une ambiance sans prétention : l’endroit parfait pour laisser le temps filer.</p><p class="feature-detail">Mercredi · Golf-billard à 13 h<br />Vendredi · Tournoi de billard à 12 h 30</p></div></div><div class="feature feature-room" id="location-salle"><div><p class="eyebrow">Au 2e étage · Salle Point G</p><h2>Votre monde,<br /><em>votre soirée.</em></h2><p>Notre Salle Point G est une salle privée pouvant accueillir jusqu’à 70 personnes, parfaite pour vos événements corporatifs ou festifs.</p><p>Profitez de 3 écrans de 65”, d’un système de son professionnel, d’un service de bar complet et de notre chef propriétaire, qui concoctera un menu sur mesure selon vos goûts.</p><a class="text-link" href="https://sallepointg.ca">Découvrir la Salle Point G <span>→</span></a></div></div></section>
+      <section class="features" id="billard"><div class="feature feature-billiard"><div><p class="eyebrow">Billard à Saint-Jérôme</p><h2>Une partie?<br /><em>On vous attend.</em></h2><p>Billard, jeux et une ambiance sans prétention : l’endroit parfait pour laisser le temps filer.</p><p class="feature-detail">Mercredi · Golf-billard à 13 h<br />Vendredi · Tournoi de billard à 12 h 30</p></div></div><div class="feature feature-room" id="location-salle"><div><p class="eyebrow">Au 2e étage · Salle Point G</p><h2>Votre monde,<br /><em>votre soirée.</em></h2><p>Notre Salle Point G est une salle privée pouvant accueillir jusqu’à 70 personnes, parfaite pour vos événements corporatifs ou festifs.</p><p>Profitez de 3 écrans de 65”, d’un système de son professionnel, d’un service de bar complet et de notre chef propriétaire, qui concoctera un menu sur mesure selon vos goûts.</p><a class="text-link" href="/salle-privee">En savoir plus sur la salle privée <span>→</span></a></div></div></section>
 
       <section class="gallery section" id="galerie"><div class="container"><div class="section-heading"><div><p class="eyebrow">L’ambiance St George's</p><h2>Le goût d’y être.</h2></div><p>Le meilleur reste à venir découvrir en personne.</p></div><div class="gallery-grid"><figure class="gallery-card tall"><img src="assets/ambiance-decor.jpg" alt="Décor et miroir du St George's" /><figcaption>Le décor</figcaption></figure><figure class="gallery-card food"><img src="assets/ambiance-billard.jpg" alt="Table de billard du St George's" /><figcaption>Le billard</figcaption></figure><figure class="gallery-card friends"><img src="assets/ambiance-biere.jpg" alt="Bière servie au St George's" /><figcaption>À votre santé</figcaption></figure></div></div></section>
 

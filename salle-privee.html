@@ -25,42 +25,7 @@
     <style>
       .room-page{min-height:100vh;background:#1a2632;color:#fff;padding:42px 0 90px}.room-page .brand-logo{filter:brightness(0) invert(1)}.room-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:90px}.room-page h1{font:600 clamp(48px,8vw,90px)/1.05 "Playfair Display",Georgia,serif;letter-spacing:-2px;margin:0}.room-page h1 em,.room-page h2 em{color:#7c5e42}.room-intro{max-width:720px;font-size:18px;margin:24px 0 48px}.room-content{border-top:1px solid #7c5e42;padding-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:64px;max-width:960px}.room-content h2{font-size:34px;letter-spacing:-1px;margin:0 0 18px}.room-content p,.room-content li{font-size:15px}.room-content ul{padding-left:20px}.room-actions{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:36px}@media(max-width:700px){.room-head{margin-bottom:65px}.room-head .brand-logo{width:145px}.room-content{grid-template-columns:1fr;gap:28px}}
     </style>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": ["BarOrPub", "LocalBusiness"],
-            "@id": "https://stgeorgestaverne.ca/#etablissement",
-            "name": "St George's Taverne",
-            "url": "https://stgeorgestaverne.ca/",
-            "telephone": "+1-450-436-6446",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "97, rue Saint-Georges",
-              "addressLocality": "Saint-Jérôme",
-              "addressRegion": "QC",
-              "addressCountry": "CA"
-            }
-          },
-          {
-            "@type": "EventVenue",
-            "@id": "https://stgeorgestaverne.ca/salle-privee#salle",
-            "name": "Salle Point G",
-            "url": "https://sallepointg.ca/location-salle-saint-jerome",
-            "maximumAttendeeCapacity": 70,
-            "isLocatedAt": {"@id": "https://stgeorgestaverne.ca/#etablissement"},
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "97, rue Saint-Georges",
-              "addressLocality": "Saint-Jérôme",
-              "addressRegion": "QC",
-              "addressCountry": "CA"
-            }
-          }
-        ]
-      }
-    </script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": ["BarOrPub", "LocalBusiness"], "@id": "https://stgeorgestaverne.ca/#etablissement", "name": "St George's Taverne", "url": "https://stgeorgestaverne.ca/", "telephone": "+1-450-436-6446", "address": {"@type": "PostalAddress", "streetAddress": "97, rue Saint-Georges", "addressLocality": "Saint-Jérôme", "addressRegion": "QC", "addressCountry": "CA"}}, {"@type": "EventVenue", "@id": "https://sallepointg.ca/#venue", "name": "Salle Point G", "url": "https://sallepointg.ca/", "maximumAttendeeCapacity": 70, "isLocatedAt": {"@id": "https://stgeorgestaverne.ca/#etablissement"}, "address": {"@type": "PostalAddress", "streetAddress": "99, rue Saint-Georges", "addressLocality": "Saint-Jérôme", "addressRegion": "QC", "addressCountry": "CA"}}]}</script>
   </head>
   <body>
     <main class="room-page">
@@ -94,6 +59,6 @@
           <a class="text-link" href="/#contact">Joindre le St George's <span>→</span></a>
         </div>
       </div>
-    </main>
+    <p class="container">Entrée de la Salle Point G : 99, rue Saint-Georges, au deuxième étage. <a href="https://sallepointg.ca/">Consulter le site officiel et demander une réservation</a>.</p></main>
   </body>
 </html>
